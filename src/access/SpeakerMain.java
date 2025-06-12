@@ -12,7 +12,7 @@ public class SpeakerMain {
         speaker.showVolume();
 
         System.out.println("볼륨 필드 직접 접근");
-        speaker.volume = 200;
+        // speaker.volume = 200; private 로 선언해둠
         speaker.showVolume();
 
     }
