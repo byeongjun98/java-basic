@@ -12,7 +12,6 @@ public class FinalFieldMain {
         System.out.println("필드 초기화");
         FieldInit fieldInit1 = new FieldInit();
         FieldInit fieldInit2 = new FieldInit();
-        FieldInit fieldInit3 = new FieldInit();
 
         System.out.println("fieldInit1: " + fieldInit1.value);
         System.out.println("fieldInit2: " + fieldInit2.value);
@@ -20,6 +19,7 @@ public class FinalFieldMain {
         System.out.println("상수");
         System.out.println(FieldInit.CONST_VALUE);
 
+        System.out.println("원주율: " + Constant.PI);
 
     }
 }
