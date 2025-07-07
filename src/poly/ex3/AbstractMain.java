@@ -15,6 +15,9 @@ public class AbstractMain {
         Dog dog = new Dog();
         Cat cat = new Cat();
         Cow cow = new Cow();
+        HelloAnimal helloAnimal = new HelloAnimal();
+
+        helloAnimal.sound();
 
         cat.sound();
         cat.move();
