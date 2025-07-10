@@ -1,4 +1,4 @@
-package diamond;
+package poly.diamond;
 
 /*
 인터페이스는 다중 구현이 되는 이유

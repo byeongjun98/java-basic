@@ -1,4 +1,4 @@
-package diamond;
+package poly.diamond;
 
 /*
 유용한 단축키
